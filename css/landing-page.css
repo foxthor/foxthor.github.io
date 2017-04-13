@@ -22,7 +22,8 @@ h6 {
 }
 
 .topnav {
-    width: 100%;
+    
+  
     font-size: 14px;
     background-color:  #70060
 }
@@ -171,9 +172,8 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-.down {
-    margin: 100px;
+
+.navbar-right {
+    margin: 0px 0px 0px 400px;
 }
-
-
 
