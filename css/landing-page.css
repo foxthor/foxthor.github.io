@@ -21,7 +21,7 @@ h6 {
     font-weight: 700;
 }
 .pad {
-   
+
 }
 
 .proj-txt-space {
@@ -191,5 +191,5 @@ p.copyright {
 
 
 .down {
-    margin: 100px;
+    padding-top: 100px;
 }
