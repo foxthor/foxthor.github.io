@@ -21,8 +21,8 @@ h6 {
     font-weight: 700;
 }
 .pad {
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
+    max-height: 100vh;
 }
 
 .proj-txt-space {
