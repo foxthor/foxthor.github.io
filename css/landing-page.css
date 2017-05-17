@@ -20,6 +20,10 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+.pad {
+    height: 100%;
+    width: 100%;
+}
 
 .proj-txt-space {
 
