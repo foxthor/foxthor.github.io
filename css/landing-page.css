@@ -21,6 +21,23 @@ h6 {
     font-weight: 700;
 }
 
+.proj-txt-space {
+
+    padding-bottom:  20px;
+    font-size: 350%;
+}
+
+#projects {
+
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.imgSpace {
+
+    padding-top: 130px;
+}
+
 .topnav {
     
   
