@@ -116,7 +116,7 @@ p {
 }
 
 .banner {
-	background: url('../img/banner-bg-orange.jpg') ;
+	background: url('../img/banner1.jpg') ;
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -163,7 +163,8 @@ footer {
 	
 }
 
-.lead {
+.skills-h2-font {
+	font-size: 350%;
 
 }
 
@@ -172,5 +173,9 @@ footer {
     max-width: 100%;
 }
 
+.img-size {
 
+	width: auto;
+	height: 220px;
+}
 
