@@ -1,103 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+  <title>Portfolio</title>
 
-<head>
-
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Portfolio Page</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-left">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#resources">Resources</a>
-                    </li>
-                     <li>
-                        <a href="#plans">Plans</a>
-                    </li>
-                     <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-    <!-- Header -->
-    <a name="home"></a>
-    <div class="intro-header pad ">
+	<!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	
+	<!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+  <body>
+	<!-- Navigation Bar -->
+	<nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">BigaByte</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#cover">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#resources">Resources</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#future">Future</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " href="#projects">Projects</a>
+      </li>
+    </ul>
+    
+  </div>
+</nav>
+  
+	<!-- Cover Page and Link Buttons -->
+  	<a name="home"></a>
+    <div class="intro-header pad" id="cover">
         <div class="container">
 
             <div class="row ">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Brent's Portfolio</h1>
+                        <h1>BigaByte</h1>
+                        <h2>Web Design & Development<h2>
                         <h3>A collection of Web development and Game development</h3>
                         <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
+                        <ul class="list-inline intro-social-buttons ">
                             <li>
-                                <a href="http://codepen.io/foxthor/" class="btn btn-default btn-lg"><i class="fa fa-code fa-fw"></i> <span class="network-name">CodePen</span></a>
+                                <a href="http://codepen.io/foxthor/" class="btn btn-warning btn-lg"><i class="fa fa-code fa-fw"></i> <span class="network-name">CodePen</span></a>
                             </li>
+                            <br>
                             <li>
-                                <a href="https://github.com/foxthor" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                                <a href="https://github.com/foxthor" class="btn btn-warning btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                             </li>
+                            <br>
                             <li>
-                                <a href="https://www.linkedin.com/in/brent-giles-a8b77b107/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                                <a href="https://www.linkedin.com/in/brent-giles-a8b77b107/" class="btn btn-warning btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                             </li>
+                            <br>
                              <li>
-                                <a href="https://foxthor.itch.io" class="btn btn-default btn-lg"><i class="fa fa-rocket fa-fw"></i> <span class="network-name">Games</span></a>
+                                <a href="https://foxthor.itch.io" class="btn btn-warning btn-lg"><i class="fa fa-rocket fa-fw"></i> <span class="network-name">Games</span></a>
                             </li>
                         </ul>
                     </div>
@@ -105,84 +83,92 @@
             </div>
 
         </div>
-        <!-- /.container -->
+	</div>
 
-    </div>
-    <!-- /.intro-header -->
-
-    <!-- Page Content -->
-
-	<a  name="about"></a>
+	<!-- Content Section A -->
+  	<a  name="about"></a>
     <div class="content-section-a pad">
 
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-6 ">
-                    <hr class="section-heading-spacer">
+                    
                     <div class="clearfix"></div>
                     <h2 class="section-heading">What im about</h2>
                     <p class="lead">I am a self taught web developer and  aspiring indie game creator. I am learning to code and program using various free and paid resources I have found on the web. So far I have been learning HTML and CSS, bootstrap, JavaScript, Java and C# in Unity.
                     Im also interested in Cyber Security, Ethical Hacking and the effects of cyber warfare and virtual criminal activity Including its political motivations, which will have a bigger impact on our lives as the future unravels. The whole I.T industry is very exciting at the moment, with technology rapidly evolving. I am interested in the new developments in machine learning and A.I. which poses some very large changes to our future. The internet is intertwined with all of our lives and is a facinating realm of possibilities that is ever evolving. We now more than ever, have the greatest tools at our fingertips to develop ideas and realize them. 
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6 pad">
-                    <img class="img-responsive down" src="img/ipadgame.png" alt="">
+                    <img class="img-responsive down" src="" alt="">
                 </div>
             </div>
 
         </div>
-        <!-- /.container -->
-
     </div>
-    <!-- /.content-section-a -->
-    <a  name="resources"></a>
-    <div class="content-section-b pad">
+
+
+	
+	<!-- Color Divider -->
+    <div class="color-div-a"></div>
+	
+	<!-- Content Section B -->
+     <a  name="resources"></a>
+    <div class="content-section-b">
 
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
+                    
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Resources I have found helpful</h2>
                     <p class="lead">I have been using resources such as <a target="_blank" href="http://www.freecodecamp.com">Free Code Camp</a> and <a target="_blank" href="http://www.udemy.com"> Udemy</a> , Ben Tristams Unity course helped me greatly in learning the basics of C# and programming fundamentals, while creating games as I learned. Other notable resources include, <a target="_blank" href="https://www.udacity.com/"> Udacity</a> , <a target="_blank" href="https://stackoverflow.com/"> Stack-Overflow</a> , code academy, Youtube tutorials. Theres so many great resources out there and so much to learn at our fingertips.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6 pad">
-                    <img class="img-responsive" src="img/screen.png" alt="">
+                    <img class="img-responsive" src="" alt="">
                 </div>
             </div>
 
         </div>
         <!-- /.container -->
 
-    </div>
-    <!-- /.content-section-b -->
+    </div>    
 
-    <div class="content-section-a pad">
+    <div class="color-div-b"></div>
+
+    <!-- /.content-section-a -->
+
+    <a  name="future"></a>
+
+    <div class="content-section-a plans">
 
         <div class="container">
 
-            <div class="row" id="plans">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Future Plans</h2>
-                    <p class="lead">This page is just the beggining, there's not a lot here now but I will be updating and polishing this portfolio page as I progress through my courses and as I develop more apps, games and web pages. Each new skill and piece of knowledge allows me to add further polish and features to my current projects in progress. I am contiunally learning and hope to soon be proficient enough with my chosen programming languages to be able to do some real world work. I am focusing on getting my Front End Certification first before moving to the Back-end Certification. Though im concurrently working on Games in Unity with C#, games have long been a passion in my life and it is what brought be into the world of programming and coding. I hope to be able to design some more fun games soon. I am also currently building a Laser Defender Space game in Unity with C# for the Udemy Unity course, that will be the next game I publish to <a target="_blank" href="https://foxthor.itch.io"> my itch.io page.</a> This page was built using HTML5, CSS, BootStrap and start bootstrap framework. Next additions to this page will be more JavaScript to give it some life. </p>
+                    <p class="lead">This page is just the beggining, there's not a lot here now but I will be updating and polishing this portfolio page as I progress through my courses and as I develop more apps, games and web pages. Each new skill and piece of knowledge allows me to add further polish and features to my current projects in progress. I am contiunally learning and hope to soon be proficient enough with my chosen programming languages to be able to do some real world work. I am focusing on getting my Front End Certification first before moving to the Back-end Certification. Though im concurrently working on Games in Unity with C#, games have long been a passion in my life and it is what brought be into the world of programming and coding. I hope to be able to design some more fun games soon. I am also currently building a Laser Defender Space game in Unity with C# for the Udemy Unity course, that will be the next game I publish to <a target="_blank" href="https://foxthor.itch.io"> my itch.io page.</a>Next additions to this page will be more JavaScript to give it some life. </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6 pad">
-                    <img class="img-responsive" src="img/apple.jpg" alt="">
+                    <img class="img-responsive" src="" alt="">
                 </div>
             </div>
 
         </div>
-        <!-- /.container -->
-
+      
     </div>
+
+    <!-- Color Divider -->
+    <div class="color-div-a"></div>
     
     
         <!-- Projects Section-->
+        <a name="projects"></a>
         <div class="container-fluid projects " id="projects">    
-            <div class="container">
-                <h1 class="text-center proj-txt-space">Projects</h1>
+            <div class="container text-center">
+                <h2 class="text-center proj-txt-space" id="size">Projects</h2>
             
                 <div class="row">
                     <div class="col-md-6">
@@ -258,30 +244,34 @@
     <!-- /.content-section-b -->
 
 	<a  name="contact"></a>
-    <div class="banner pad">
+    <div class="banner">
 
         <div class="container">
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h2>Find me and my work on these networks:</h2>
+                    <h2 class="white-text pad-top-20 bigger-font">Find me and my work on these networks:</h2>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 pad-top-20">
                     <ul class="list-inline banner-social-buttons">
                     <li>
-                        <a href="http://codepen.io/foxthor/" class="btn btn-default btn-lg"><i class="fa fa-code fa-fw"></i> <span class="network-name">CodePen</span></a>
+                        <a href="http://codepen.io/foxthor/" class="btn btn-primary btn-lg"><i class="fa fa-code fa-fw"></i> <span class="network-name">CodePen</span></a>
                     </li>
+                    <br>
                     <li>
-                       <a href="https://github.com/foxthor" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                       <a href="https://github.com/foxthor" class="btn btn-primary btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
+                    <br>
                     <li>
-                         <a href="https://www.linkedin.com/in/brent-giles-a8b77b107/" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+                         <a href="https://www.linkedin.com/in/brent-giles-a8b77b107/" class="btn btn-primary btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                      </li>
+                     <br>
                     <li>
-                        <a href="https://foxthor.itch.io" class="btn btn-default btn-lg"><i class="fa fa-rocket fa-fw"></i> <span class="network-name">Games</span></a>
+                        <a href="https://foxthor.itch.io" class="btn btn-primary btn-lg"><i class="fa fa-rocket fa-fw"></i> <span class="network-name">Games</span></a>
                     </li>
+                    <br>
                      <li>
-                        <a href="mailto:foxthor@gmail.com" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name"> My Email</span></a>
+                        <a href="mailto:foxthor@gmail.com" class="btn btn-primary btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name"> My Email</span></a>
                     </li>
                             
                     </ul>
@@ -298,7 +288,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-sm-12">
                     <ul class="list-inline">
                         <li>
                             <a href="#home">Home</a>
@@ -331,23 +321,12 @@
         </div>
     </footer>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+  	
+    
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-97419658-1', 'auto');
-  ga('send', 'pageview');
-
-    </script>
-
-</body>
-
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
 </html>
